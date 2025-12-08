@@ -182,15 +182,14 @@
 ---
 
 ### Диаграмма Ганта
-
 ```mermaid
 gantt
     title Диаграмма Ганта - Конвейерная задача (Вариант 3)
-    dateFormat  X
-    axisFormat %U
-    Начало выполнения работ : milestone, m1, 0, 0h
+    dateFormat  YYYY-MM-DD HH:mm
+    axisFormat  %H:%M
+    Начало выполнения работ : milestone, m1, 2023-01-01 00:00, 0h
     section Конвейер 1
-    H : a1, 0, 1h
+    H : a1, 2023-01-01 00:00, 1h
     G : a2, after a1, 4h
     B : a3, after a2, 5h
     D : a4, after a3, 7h
@@ -211,7 +210,7 @@ gantt
     C : b8, after a8 and b7, 6h
     E : b9, after a9 and b8, 6h
     J : b10, after a10 and b9, 3h
-    Окончание выполнения работ : milestone, m2, 65, 0h
+    Окончание выполнения работ : milestone, m2, after b10, 0h
 ```
 
 **Ответ: кратчайшее расписание - 65 часов**
