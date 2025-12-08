@@ -21,7 +21,7 @@ $$
 3) Потом разложим по первому столбцу
 
 
-\[
+$$
 \Delta_n = 
 \begin{vmatrix}
 -6 & 2 & 0 & \cdots \\
@@ -36,7 +36,8 @@ $$
 \vdots & \vdots & \vdots & \ddots
 \end{vmatrix}
 = -6\Delta_{n-1} - bc\Delta_{n-2}
-\]
+$$
+
 Рекуррентное соотношение: 
 
 Формула: $\Delta_n = a \cdot \Delta_{n-1} - bc \cdot \Delta_{n-2}$ (линейное однородное)
