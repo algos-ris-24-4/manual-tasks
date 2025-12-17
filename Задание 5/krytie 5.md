@@ -107,32 +107,31 @@
 
 ```mermaid
 gantt
-    title Оптимальное расписание
-    dateFormat HH
+    title Оптимальное расписание (Вариант 7)
+    dateFormat YYYY-MM-DD HH
     axisFormat %Hч
-
-
-section Исполнитель 1 (P=4)
-    Задача A: 0, 2
-    Задачи A,B (часть): 2, 2
-    Задачи A,B,C (часть): 4, 4
-    Все задачи (часть): 8, 3
+    
+    section Исполнитель 1 (P=4)
+    Задача A             : taskA1, 2025-12-17 00, 2h
+    Задачи A,B (часть)   : taskA2, after taskA1, 2h
+    Задачи A,B,C (часть) : taskA3, after taskA2, 4h
+    Все задачи (часть)   : taskA4, after taskA3, 3h
 
     section Исполнитель 2 (P=3)
-    Задача B: 0, 2
-    Задачи A,B (часть): 2, 2
-    Задачи A,B,C (часть): 4, 4
-    Все задачи (часть): 8, 3
+    Задача B             : taskB1, 2025-12-17 00, 2h
+    Задачи A,B (часть)   : taskB2, after taskB1, 2h
+    Задачи A,B,C (часть) : taskB3, after taskB2, 4h
+    Все задачи (часть)   : taskB4, after taskB3, 3h
 
     section Исполнитель 3 (P=2)
-    Задача C: 0, 2
-    Задача C: 2, 2
-    Задачи A,B,C (часть): 4, 4
-    Все задачи (часть): 8, 3
+    Задача C (часть 1)   : taskC1, 2025-12-17 00, 2h
+    Задача C (часть 2)   : taskC2, after taskC1, 2h
+    Задачи A,B,C (часть) : taskC3, after taskC2, 4h
+    Все задачи (часть)   : taskC4, after taskC3, 3h
 
     section Исполнитель 4 (P=1)
-    Задача D: 0, 2
-    Задачи D,E (часть): 2, 2
-    Задачи D,E (часть): 4, 4
-    Все задачи (часть): 8, 3
+    Задача D             : taskD1, 2025-12-17 00, 2h
+    Задачи D,E (часть 1) : taskD2, after taskD1, 2h
+    Задачи D,E (часть 2) : taskD3, after taskD2, 4h
+    Все задачи (часть)   : taskD4, after taskD3, 3h
 ```
