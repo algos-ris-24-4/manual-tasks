@@ -94,54 +94,54 @@ gantt
     A :active, a1, 0, 6s
     A :active, a2, after a1, 1s
     B :active, a3, after a2, 1s
-    A :active, a4, after a3, 1s
-    B :active, a5, after a4, 1s
-    C :active, a6, after a5, 1s
+    A :active, a4, after a3, 0.66s
+    B :active, a5, after a4, 0.66s
+    C :active, a6, after a5, 0.68s
     A :active, a7, after a6, 1s
     B :active, a8, after a7, 1s
     C :active, a9, after a8, 1s
     D :active, a10, after a9, 1s
-    A :active, a11, after a10, 1s
-    B :active, a12, after a11, 1s
-    C :active, a13, after a12, 1s
-    D :active, a14, after a13, 1s
-    E :active, a15, after a14, 1s
-    F :active, a16, after a15, 1s
+    A :active, a11, after a10, 0.83s
+    B :active, a12, after a11, 0.83s
+    C :active, a13, after a12, 0.83s
+    D :active, a14, after a13, 0.83s
+    E :active, a15, after a14, 0.83s
+    F :active, a16, after a15, 0.85s
 
     section Исполнитель 2
     B :active, b1, 0, 6s
     B :active, b2, after b1, 1s
     A :active, b3, after b2, 1s
-    B :active, b4, after b3, 1s
-    C :active, b5, after b4, 1s
-    A :active, b6, after b5, 1s
+    B :active, b4, after b3, 0.66s
+    C :active, b5, after b4, 0.66s
+    A :active, b6, after b5, 0.68s
     B :active, b7, after b6, 1s
     C :active, b8, after b7, 1s
     D :active, b9, after b8, 1s
     A :active, b10, after b9, 1s
-    B :active, b11, after b10, 1s
-    C :active, b12, after b11, 1s
-    D :active, b13, after b12, 1s
-    E :active, b14, after b13, 1s
-    F :active, b15, after b14, 1s
-    A :active, b16, after b15, 1s
+    B :active, b11, after b10, 0.83s
+    C :active, b12, after b11, 0.83s
+    D :active, b13, after b12, 0.83s
+    E :active, b14, after b13, 0.83s
+    F :active, b15, after b14, 0.83s
+    A :active, b16, after b15, 0.85s
 
     section Исполнитель 3
     C :active, c1, 0, 6s
     C :active, c2, after c1, 2s
-    C :active, c3, after c2, 1s
-    A :active, c4, after c3, 1s
-    B :active, c5, after c4, 1s
+    C :active, c3, after c2, 0.66s
+    A :active, c4, after c3, 0.66s
+    B :active, c5, after c4, 0.68s
     C :active, c6, after c5, 1s
     D :active, c7, after c6, 1s
     A :active, c8, after c7, 1s
     B :active, c9, after c8, 1s
-    C :active, c10, after c9, 1s
-    D :active, c11, after c10, 1s
-    E :active, c12, after c11, 1s
-    F :active, c13, after c12, 1s
-    A :active, c14, after c13, 1s
-    B :active, c15, after c14, 1s
+    C :active, c10, after c9, 0.83s
+    D :active, c11, after c10, 0.83s
+    E :active, c12, after c11, 0.83s
+    F :active, c13, after c12, 0.83s
+    A :active, c14, after c13, 0.83s
+    B :active, c15, after c14, 0.85s
 ```
 ### Объяснение построения диаграммы:
 
