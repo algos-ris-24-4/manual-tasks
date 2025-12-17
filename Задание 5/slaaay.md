@@ -251,7 +251,8 @@ gantt
     A : a13, after a12, 1m
     B : b11, after a13, 1m
     C : c11, after b11, 1m
-    B : b12, after c11, 1m
+    A : a14, after c11, 1m
+    B : b12, after a14, 1m
     C : c12, after b12, 1m
     D : d11, after c12, 1m
     E : e11, after d11, 1m
@@ -259,21 +260,24 @@ gantt
     section Исполн. 2
     B : b21, 0, 3m
     B : b22, after b21, 2m
-    C : c21, after b22, 2m
-    B : b23, after c21, 1m
-    C : c22, after b23, 1m
+    C : c21, after b22, 3m
+    A : a21, after c21, 1m
+    B : b23, after a21, 1m
+    B : b24, after b23, 1m
+    C : c22, after b24, 1m
     D : d21, after c22, 1m
     E : e21, after d21, 1m
-    A : a21, after e21, 2m
+    A : a22, after e21, 1m
 
     section Исполн. 3
     C : c31, 0, 3m
     C : c32, after c31, 2m
-    B : b31, after c32, 2m
+    B : b31, after c32, 3m
     C : c33, after b31, 1m
     A : a31, after c33, 1m
     C : c34, after a31, 1m
     D : d31, after c34, 1m
     E : e31, after d31, 1m
-    B : b32, after e31, 1m
+    A : a32, after e31, 1m
+    B : b32, after a32, 1m
 ```
