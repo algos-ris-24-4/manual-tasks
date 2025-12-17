@@ -43,17 +43,34 @@ $$
 
 Проверим, когда какие-либо остатки сравняются:
 
-- $A = B$: $42 - 4t = 26 - 2t \Rightarrow t = 8$
-- $B = C$: $26 - 2t = 23 - t \Rightarrow t = 3$
-- $C = D$: $23 - t = 7 \Rightarrow t = 16$
+- $A = B$:  
+  $$
+  42 - 4t = 26 - 2t \Rightarrow 2t = 16 \Rightarrow t = 8
+  $$
+
+- $B = C$:  
+  $$
+  26 - 2t = 23 - t \Rightarrow t = 3
+  $$
+
+- $C = D$:  
+  $$
+  23 - t = 7 \Rightarrow t = 16
+  $$
 
 Первое событие — при $t = 3$.
 
 Остатки после $t = 3$:
 
-- $A = 42 - 4 \cdot 3 = 30$
-- $B = 26 - 2 \cdot 3 = 20$
-- $C = 23 - 1 \cdot 3 = 20$
+$$
+A = 42 - 4 \cdot 3 = 30
+$$
+$$
+B = 26 - 2 \cdot 3 = 20
+$$
+$$
+C = 23 - 1 \cdot 3 = 20
+$$
 
 | Задания      |  A  |  B  |  C  |  D  |  E  |
 |:-------------|:---:|:---:|:---:|:---:|:---:|
@@ -71,15 +88,26 @@ $$
 
 Проверим следующие точки равенства:
 
-- $A = BC$: $30 - 4t = 20 - \frac{3}{2}t \Rightarrow t = 4$
-- $BC = D$: $20 - \frac{3}{2}t = 7 \Rightarrow t = \frac{26}{3} \approx 8.67$
+- $A = BC$:  
+  $$
+  30 - 4t = 20 - \frac{3}{2}t \Rightarrow 10 = \frac{5}{2}t \Rightarrow t = 4
+  $$
 
-Ближайшее — $t = 4$ (абсолютное время: $3 + 4 = 7$)
+- $BC = D$:  
+  $$
+  20 - \frac{3}{2}t = 7 \Rightarrow \frac{3}{2}t = 13 \Rightarrow t = \frac{26}{3} \approx 8.67
+  $$
+
+Ближайшее событие — через $t = 4$ (абсолютное время: $3 + 4 = 7$).
 
 Остатки после $t = 7$:
 
-- $A = 30 - 4 \cdot 4 = 14$
-- $B = C = 20 - \frac{3}{2} \cdot 4 = 14$
+$$
+A = 30 - 4 \cdot 4 = 14
+$$
+$$
+B = C = 20 - \frac{3}{2} \cdot 4 = 14
+$$
 
 | Задания      |  A  |  B  |  C  |  D  |  E  |
 |:-------------|:---:|:---:|:---:|:---:|:---:|
@@ -99,14 +127,16 @@ $$
 
 Проверим, когда ABC сравняется с D/E:
 $$
-14 - \frac{7}{3}t = 7 \Rightarrow t = 3
+14 - \frac{7}{3}t = 7 \Rightarrow \frac{7}{3}t = 7 \Rightarrow t = 3
 $$
 
 Абсолютное время: $7 + 3 = 10$
 
 Остатки после $t = 10$:
 
-- $A = B = C = D = E = 7$
+$$
+A = B = C = D = E = 7
+$$
 
 | Задания      |  A  |  B  |  C  |  D  |  E  |
 |:-------------|:---:|:---:|:---:|:---:|:---:|
@@ -116,7 +146,7 @@ $$
 
 ### Шаг 5: Четвёртое распределение (10 ≤ t ≤ 15)
 
-Все 5 задач равны → объединяем в группу **ABCDE**.
+Теперь все 5 задач равны. Объединяем в группу **ABCDE**.
 
 Эффективная производительность на одну задачу:
 $$
@@ -136,50 +166,44 @@ $$
 
 ## Итоговая диаграмма Ганта
 
+```mermaid
 gantt
-    title Итоговая диаграмма Ганта
-    dateFormat  mm
-    axisFormat %M
-    tickInterval 1minute
-    
-    section P1 (p=4)
-    A (3m)      :crit, a1, 0, 3m
-    A (4m)      :crit, a2, after a1, 4m
-    A (1m)      :a3, after a2, 1m
-    B (1m)      :b3, after a3, 1m
-    C (1m)      :c3, after b3, 1m
-    A (1m)      :a4, after c3, 1m
-    B (1m)      :b4, after a4, 1m
-    E (1m)      :e4, after b4, 1m
-    D (1m)      :d4, after e4, 1m
-    C (1m)      :c4, after d4, 1m
+    title Диаграмма Ганта (Вариант 9)
+    dateFormat  X
+    axisFormat %s
+    tickInterval 1
+    section Исполнитель 1
+    A : 0, 7
+    B : 7, 1
+    C : 8, 1
+    A : 9, 1
+    D : 10, 1
+    E : 11, 1
+    A : 12, 1
+    B : 13, 1
+    C : 14, 1
+    section Исполнитель 2
+    B : 0, 3
+    C : 3, 4
+    A : 7, 1
+    B : 8, 1
+    C : 9, 1
+    D : 10, 1
+    E : 11, 1
+    A : 12, 1
+    B : 13, 1
+    C : 14, 1
+    section Исполнитель 3
+    C : 0, 3
+    B : 3, 4
+    C : 7, 1
+    A : 8, 1
+    B : 9, 1
+    D : 10, 1
+    E : 11, 1
+    A : 12, 1
+    B : 13, 1
+    C : 14, 1
+```
 
-    section P2 (p=2)
-    B (3m)      :crit, b1, 0, 3m
-    B (1m)      :b2, after b1, 1m
-    C (1m)      :c2, after b2, 1m
-    B (1m)      :b2_1, after c2, 1m
-    C (1m)      :c2_1, after b2_1, 1m
-    B (1m)      :b3_2, after c2_1, 1m
-    C (1m)      :c3_2, after b3_2, 1m
-    A (1m)      :a3_2, after c3_2, 1m
-    B (1m)      :b4_2, after a3_2, 1m
-    C (1m)      :c4_2, after b4_2, 1m
-    A (1m)      :a4_2, after c4_2, 1m
-    E (1m)      :e4_2, after a4_2, 1m
-    D (1m)      :d4_2, after e4_2, 1m
-
-    section P3 (p=1)
-    C (3m)      :crit, c1, 0, 3m
-    C (1m)      :c2_3, after c1, 1m
-    B (1m)      :b2_3, after c2_3, 1m
-    C (1m)      :c2_4, after b2_3, 1m
-    B (1m)      :b2_5, after c2_4, 1m
-    C (1m)      :c3_3, after b2_5, 1m
-    A (1m)      :a3_3, after c3_3, 1m
-    B (1m)      :b3_3, after a3_3, 1m
-    C (1m)      :c4_3, after b3_3, 1m
-    D (1m)      :d4_3, after c4_3, 1m
-    B (1m)      :b4_3, after d4_3, 1m
-    A (1m)      :a4_3, after b4_3, 1m
-    E (1m)      :e4_3, after a4_3, 1m
+## Ответ: t = 15
