@@ -85,62 +85,63 @@ $$T_{min} = \frac {\sum V_i}{\sum p_j} = \frac {38 + 32 + 23 + 11 + 5 + 5}{3 + 2
 
 ```mermaid
 gantt
-    title Диаграмма Ганта - Стратегия разделения (Циклическое смещение)
-    dateFormat HH:mm
-    axisFormat %H:%M
+    title Диаграмма Ганта - Стратегия разделения (t = 0-19)
+    dateFormat ss
+    axisFormat %S
+    tickInterval 1s
 
     section Исполнитель 1
-    A (0-6)           :a1, 00:00, 3h
-    A (6-7)           :a2, after a1, 30m
-    B (7-8)           :a3, after a2, 30m
-    A (8-8.6)         :a4, after a3, 20m
-    B (8.6-9.3)       :a5, after a4, 20m
-    C (9.3-10)        :a6, after a5, 20m
-    A (10-11)         :a7, after a6, 30m
-    B (11-12)         :a8, after a7, 30m
-    C (12-13)         :a9, after a8, 30m
-    D (13-14)         :a10, after a9, 30m
-    A (14-14.8)       :a11, after a10, 25m
-    B (14.8-15.6)     :a12, after a11, 25m
-    C (15.6-16.5)     :a13, after a12, 25m
-    D (16.5-17.3)     :a14, after a13, 25m
-    E (17.3-18.1)     :a15, after a14, 25m
-    F (18.1-19)       :a16, after a15, 25m
+    A :active, a1, 0, 6s
+    A :active, a2, after a1, 1s
+    B :active, a3, after a2, 1s
+    A :active, a4, after a3, 1s
+    B :active, a5, after a4, 1s
+    C :active, a6, after a5, 1s
+    A :active, a7, after a6, 1s
+    B :active, a8, after a7, 1s
+    C :active, a9, after a8, 1s
+    D :active, a10, after a9, 1s
+    A :active, a11, after a10, 1s
+    B :active, a12, after a11, 1s
+    C :active, a13, after a12, 1s
+    D :active, a14, after a13, 1s
+    E :active, a15, after a14, 1s
+    F :active, a16, after a15, 1s
 
     section Исполнитель 2
-    B (0-6)           :b1, 00:00, 3h
-    B (6-7)           :b2, after b1, 30m
-    A (7-8)           :b3, after b2, 30m
-    B (8-8.6)         :b4, after b3, 20m
-    C (8.6-9.3)       :b5, after b4, 20m
-    A (9.3-10)        :b6, after b5, 20m
-    B (10-11)         :b7, after b6, 30m
-    C (11-12)         :b8, after b7, 30m
-    D (12-13)         :b9, after b8, 30m
-    A (13-14)         :b10, after b9, 30m
-    B (14-14.8)       :b11, after b10, 25m
-    C (14.8-15.6)     :b12, after b11, 25m
-    D (15.6-16.5)     :b13, after b12, 25m
-    E (16.5-17.3)     :b14, after b13, 25m
-    F (17.3-18.1)     :b15, after b14, 25m
-    A (18.1-19)       :b16, after b15, 25m
+    B :active, b1, 0, 6s
+    B :active, b2, after b1, 1s
+    A :active, b3, after b2, 1s
+    B :active, b4, after b3, 1s
+    C :active, b5, after b4, 1s
+    A :active, b6, after b5, 1s
+    B :active, b7, after b6, 1s
+    C :active, b8, after b7, 1s
+    D :active, b9, after b8, 1s
+    A :active, b10, after b9, 1s
+    B :active, b11, after b10, 1s
+    C :active, b12, after b11, 1s
+    D :active, b13, after b12, 1s
+    E :active, b14, after b13, 1s
+    F :active, b15, after b14, 1s
+    A :active, b16, after b15, 1s
 
     section Исполнитель 3
-    C (0-6)           :c1, 00:00, 3h
-    C (6-8)           :c2, after c1, 1h
-    C (8-8.6)         :c3, after c2, 20m
-    A (8.6-9.3)       :c4, after c3, 20m
-    B (9.3-10)        :c5, after c4, 20m
-    C (10-11)         :c6, after c5, 30m
-    D (11-12)         :c7, after c6, 30m
-    A (12-13)         :c8, after c7, 30m
-    B (13-14)         :c9, after c8, 30m
-    C (14-14.8)       :c10, after c9, 25m
-    D (14.8-15.6)     :c11, after c10, 25m
-    E (15.6-16.5)     :c12, after c11, 25m
-    F (16.5-17.3)     :c13, after c12, 25m
-    A (17.3-18.1)     :c14, after c13, 25m
-    B (18.1-19)       :c15, after c14, 25m
+    C :active, c1, 0, 6s
+    C :active, c2, after c1, 2s
+    C :active, c3, after c2, 1s
+    A :active, c4, after c3, 1s
+    B :active, c5, after c4, 1s
+    C :active, c6, after c5, 1s
+    D :active, c7, after c6, 1s
+    A :active, c8, after c7, 1s
+    B :active, c9, after c8, 1s
+    C :active, c10, after c9, 1s
+    D :active, c11, after c10, 1s
+    E :active, c12, after c11, 1s
+    F :active, c13, after c12, 1s
+    A :active, c14, after c13, 1s
+    B :active, c15, after c14, 1s
 ```
 ### Объяснение построения диаграммы:
 
