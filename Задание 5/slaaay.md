@@ -240,40 +240,45 @@ $$
 
 ```mermaid
 gantt
-    title Диаграмма Ганта
-    dateFormat X
-    axisFormat %s
-    tickInterval 1
+    title Диаграмма Ганта (Вариант 9)
+    dateFormat  mm
+    axisFormat %M
+    tickInterval 1minute
+
     section Исполн. 1
-    A : a1, 0, 7
-    B : b1, after a1, 1
-    C : c1, after b1, 1
-    A : a2, after c1, 1
-    D : d1, after a2, 1
-    E : e1, after d1, 1
-    A : a3, after e1, 1
-    B : b2, after a3, 1
-    C : c2, after b2, 1
+    A : a11, 0, 3m
+    A : a12, after a11, 4m
+    A : a13, after a12, 1m
+    B : b11, after a13, 1m
+    C : c11, after b11, 1m
+    A : a14, after c11, 1m
+    B : b12, after a14, 1m
+    C : c12, after b12, 1m
+    D : d11, after c12, 1m
+    E : e11, after d11, 1m
+
     section Исполн. 2
-    B : b3, 0, 3
-    C : c3, after b3, 4
-    A : a4, after c3, 1
-    B : b4, after a4, 1
-    C : c4, after b4, 1
-    D : d2, after c4, 1
-    E : e2, after d2, 1
-    A : a5, after e2, 1
-    B : b5, after a5, 1
-    C : c5, after b5, 1
+    B : b21, 0, 3m
+    B : b22, after b21, 2m
+    C : c21, after b22, 2m
+    A : a21, after c21, 1m
+    B : b23, after a21, 1m
+    B : b24, after b23, 1m
+    C : c22, after b24, 1m
+    D : d21, after c22, 1m
+    E : e21, after d21, 1m
+    A : a22, after e21, 1m
+
     section Исполн. 3
-    C : c6, 0, 3
-    B : b6, after c6, 4
-    C : c7, after b6, 1
-    A : a6, after c7, 1
-    B : b7, after a6, 1
-    D : d3, after b7, 1
-    E : e3, after d3, 1
-    A : a7, after e3, 1
-    B : b8, after a7, 1
-    C : c8, after b8, 1
+    C : c31, 0, 3m
+    C : c32, after c31, 2m
+    B : b31, after c32, 2m
+    B : b32, after b31, 1m
+    C : c33, after b32, 1m
+    A : a31, after c33, 1m
+    C : c34, after a31, 1m
+    D : d31, after c34, 1m
+    E : e31, after d31, 1m
+    A : a32, after e31, 1m
+    B : b33, after a32, 1m
 ```
