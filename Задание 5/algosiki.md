@@ -159,22 +159,52 @@ gantt
 
     section Исполн. 1
     A : a11, 0, 1m
-    A : a12, after a11, 2m
-    A+B : a13, after a12, 4m
-    A–D : a14, after a13, 8m
-    Все : a15, after a14, 5m
+    A : a12, after a11, 1m
+    B : a13, after a12, 1m
+    A : a14, after a13, 2m
+    B : a15, after a14, 2m
+    A: a16, after a15, 2m
+    B: a17, after a16, 2m
+    C: a18, after a17, 2m
+    D: a19, after a18, 2m
+    A : a20, after a19, 1m
+    B : a21, after a20, 1m
+    C : a22, after a21, 1m
+    D : a23, after a22, 1m
+    E : a24, after a23, 1m
+
+
 
     section Исполн. 2
     B : b21, 0, 1m
-    B : b22, after b21, 2m
-    A+B : b23, after b22, 4m
-    A–D : b24, after b23, 8m
-    Все : b25, after b24, 5m
+    B : b22, after b21, 1m
+    A : b23, after b22, 1m
+    B : b24, after b23, 2m
+    A : b25, after b24, 2m
+    B : b26, after b25, 2m
+    C : b27, after b26, 2m
+    D : b28, after b27, 2m
+    A : b29, after b28, 2m
+    B : b30, after b29, 1m
+    C : b31, after b30, 1m
+    D : b32, after b31, 1m
+    E : b33, after b32, 1m
+    A : b34, after b33, 1m
+
 
     section Исполн. 3
     C : c31, 0, 1m
     C : c32, after c31, 2m
-    C+D : c33, after c32, 4m
-    A–D : c34, after c33, 8m
-    Все : c35, after c34, 5m
+    C : c33, after c32, 2m
+    D : c34, after c33, 2m
+    C : c35, after c34, 2m
+    D : c36, after c35, 2m
+    A : c37, after c36, 2m
+    B : c38, after c37, 2m
+    C : c39, after c38, 1m
+    D : c40, after c39, 1m
+    E : c41, after c40, 1m
+    A : c42, after c41, 1m
+    B : c43, after c42, 1m
+
 ```
