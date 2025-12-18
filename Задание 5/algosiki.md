@@ -152,27 +152,29 @@ $$
 
 ```mermaid
 gantt
-    title Диаграмма Ганта — Стратегия разделения процессоров
-    dateFormat DD HH:mm    
-    axisFormat %H:%M
-    Начало : milestone, m1, 01 00:00, 0h
-    section Исполнитель 1
-    A : a1, 01 00:00, 1h
-    A : a2, after a1, 2h
-    A : a3, after a2, 4h
-    A : a4, after a3, 8h
-    A : a5, after a4, 5h
-    section Исполнитель 2
-    B : b1, 01 00:00, 1h
-    B : b2, after b1, 2h
-    B : b3, after b2, 4h
-    B : b4, after b3, 8h
-    B : b5, after b4, 5h
-    section Исполнитель 3
-    C : c1, 01 00:00, 1h
-    C : c2, after c1, 2h
-    C : c3, after c2, 4h
-    C : c4, after c3, 8h
-    C : c5, after c4, 5h
-    Окончание : milestone, m2, 01 20:00, 0h
+    title Диаграмма Ганта
+    dateFormat mm
+    axisFormat %M
+    tickInterval 1minute
+
+    section Исполн. 1
+    A : a11, 0, 1m
+    A : a12, after a11, 2m
+    A+B : a13, after a12, 4m
+    A–D : a14, after a13, 8m
+    Все : a15, after a14, 5m
+
+    section Исполн. 2
+    B : b21, 0, 1m
+    B : b22, after b21, 2m
+    A+B : b23, after b22, 4m
+    A–D : b24, after b23, 8m
+    Все : b25, after b24, 5m
+
+    section Исполн. 3
+    C : c31, 0, 1m
+    C : c32, after c31, 2m
+    C+D : c33, after c32, 4m
+    A–D : c34, after c33, 8m
+    Все : c35, after c34, 5m
 ```
