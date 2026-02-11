@@ -1,5 +1,3 @@
-<img width="946" height="610" alt="image" src="https://github.com/user-attachments/assets/ac03a324-04d9-49c9-9b68-027f46a1e61e" /># Решение задачи о максимальном потоке
-
 ### Вариант 4:
 
 #### Пропускная способность дуг сети:
