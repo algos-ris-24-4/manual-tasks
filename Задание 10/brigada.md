@@ -161,14 +161,14 @@
     <tr><td>5</td><td>S–D</td><td>A–B–C–T</td><td>28</td></tr>
     <tr><td>6</td><td>S–A–B</td><td>C–D–T</td><td>25</td></tr>
     <tr><td>7</td><td>S–A–C</td><td>B–D–T</td><td>27</td></tr>
-    <tr><td>8</td><td>S–A–D</td><td>B–C–T</td><td>27</td></tr>
+    <tr><td>8</td><td>S–A–D</td><td>B–C–T</td><td>36</td></tr>
     <tr><td>9</td><td>S–B–C</td><td>A–D–T</td><td>23</td></tr>
-    <tr><td>10</td><td>S–B–D</td><td>A–C–T</td><td>26</td></tr>
+    <tr><td>10</td><td>S–B–D</td><td>A–C–T</td><td>29</td></tr>
     <tr><td>11</td><td>S–C–D</td><td>A–B–T</td><td>23</td></tr>
     <tr><td>12</td><td>S–A–B–C</td><td>D–T</td><td>22</td></tr>
     <tr><td>13</td><td>S–A–B–D</td><td>C–T</td><td>34</td></tr>
     <tr><td>14</td><td>S–A–C–D</td><td>B–T</td><td>25</td></tr>
-    <tr><td>15</td><td>S–B–C–D</td><td>A–T</td><td>30</td></tr>
+    <tr><td>15</td><td>S–B–C–D</td><td>A–T</td><td>21</td></tr>
     <tr><td>16</td><td>S–A–B–C–D</td><td>T</td><td>20</td></tr>
   </tbody>
 </table>
