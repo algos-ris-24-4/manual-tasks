@@ -2,9 +2,9 @@
 
 #### Пропускная способность дуг сети:
 
-|          Дуги          | sa  | sc  | ca  | at  | ab  | ad  | cd  | dt  | bd  |
-| :--------------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Пропускная способность | 10  | 10  |  2  |  3  |  9  |  6  |  9  | 12  |  2  |
+|          Дуги          | sa  | sc  | ca  | at  | ab  | ad  | cd  | bt  | dt  | bd  |
+| :--------------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Пропускная способность | 10  | 10  |  2  |  3  |  9  |  6  |  9  |  6  | 12  |  2  |
 
 Построим сеть с источником s, стоком t и указанными пропускными способностями дуг.
 
@@ -29,7 +29,7 @@
 
 Скорректируем соответствующим образом локальные потоки в исходной сети. Первым числом будем указывать локальный поток, вторым пропускную способность дуги.
 
-<img width="856" height="559" alt="image" src="https://github.com/user-attachments/assets/eee134a4-ea6b-49a4-be34-00c0e9b970da" />
+<img width="919" height="571" alt="image" src="https://github.com/user-attachments/assets/ec6f1fcb-6c6a-43f8-bd3f-2b581b99f00c" />
 
 
 3. Продолжим поиск увеличивающего пути в остаточной сети:
@@ -45,7 +45,7 @@
 
 Скорректируем соответствующим образом локальные потоки в исходной сети.
 
-<img width="912" height="583" alt="image" src="https://github.com/user-attachments/assets/dd7ad7e3-b142-430f-9bbd-63cf2d15aa76" />
+<img width="933" height="593" alt="image" src="https://github.com/user-attachments/assets/f6c8583d-0ba6-4d9d-be61-75040f7c9e7c" />
 
 
 4. Продолжим поиск увеличивающего пути в остаточной сети:
@@ -62,7 +62,7 @@
 
 Скорректируем соответствующим образом локальные потоки в исходной сети.
 
-<img width="1061" height="683" alt="image" src="https://github.com/user-attachments/assets/564bb82f-2f73-4155-b5cd-6ae723c5f6d4" />
+<img width="880" height="583" alt="image" src="https://github.com/user-attachments/assets/48a4567f-5517-434d-8100-326d23a29d4f" />
 
 
 5. Продолжим поиск увеличивающего пути в остаточной сети.
@@ -80,7 +80,7 @@
 
 Скорректируем соответствующим образом локальные потоки в исходной сети.
 
-<img width="1076" height="670" alt="image" src="https://github.com/user-attachments/assets/ec822124-bc27-47fa-bbe0-b762c31aea80" />
+<img width="951" height="613" alt="image" src="https://github.com/user-attachments/assets/86ddc737-bf2c-41cf-9d62-074783e4fe3f" />
 
 
 6. Продолжим поиск увеличивающего пути в остаточной сети.
@@ -98,7 +98,7 @@
 
 Скорректируем соответствующим образом локальные потоки в исходной сети.
 
-<img width="632" height="394" alt="image" src="https://github.com/user-attachments/assets/d1dc4aa7-d638-4773-85fc-4d672fb3e2b5" />
+<img width="944" height="559" alt="image" src="https://github.com/user-attachments/assets/33506db0-2ade-4984-85ec-306c97166ba7" />
 
 
 7. Продолжим поиск увеличивающего пути в остаточной сети.
@@ -137,5 +137,5 @@
 
 Максимальный поток в сети равен 20, он реализуется следующим локальными потоками:
 
-<img width="632" height="394" alt="image" src="https://github.com/user-attachments/assets/7647e502-2808-4ee7-ae7f-573566e9d52c" />
+<img width="944" height="559" alt="image" src="https://github.com/user-attachments/assets/469bf2d6-8a74-4427-ab7d-71ca7961dca5" />
 
