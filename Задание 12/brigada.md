@@ -51,7 +51,8 @@
 4. Повторяем процесс.
 
 Получилось дерево:
-РИСУНОК 1
+<img width="2241" height="1098" alt="image" src="https://github.com/user-attachments/assets/dfc0fd5e-754b-4aea-9f2c-e869e5be8aea" />
+
 
 *Полное построение и дерево в хорошем качестве можно посмотреть здесь:*
 https://unidraw.io/app/board/43907cf257e65d3bfa52
