@@ -36,7 +36,8 @@
 
 Для скрещивания выберем половину поколения - 2 особей при помощи рулетки:
 
-ФОТО1,ФОТО2
+<img width="1280" height="549" alt="image" src="https://github.com/user-attachments/assets/a8367160-7bc9-492b-97ea-5b3c77dcb321" />
+
 
 Были выбраны особи x2 и x4
 
@@ -79,7 +80,8 @@
 
 Для скрещивания выберем половину поколения - 2 особей при помощи рулетки:
 
-ФОТО3,ФОТО4
+<img width="1280" height="573" alt="image" src="https://github.com/user-attachments/assets/7efcf961-a747-4fed-aee0-f0d037e339d4" />
+
 
 Были выбраны особи x1 и x6
 
@@ -122,7 +124,8 @@
 
 Для скрещивания выберем половину поколения - 2 особей при помощи рулетки:
 
-ФОТО5,ФОТО6
+<img width="1280" height="611" alt="image" src="https://github.com/user-attachments/assets/a4d11c2e-b8de-4586-890e-e9d30474c9b1" />
+
 
 Были выбраны особи x1 и x3
 
